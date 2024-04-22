@@ -1,4 +1,4 @@
-# az servicebus namespace authorization-rule keys list --resource-group pf-shared-dev-uks-01 --namespace-name pf-shared-dev-uks-01-sbn --name RootManageSharedAccessKey --query primaryConnectionString --output tsv
+# This is the entry point. It will call the generate-sas-token.ps1 script to generate a SAS token and then use it to send a message to an Azure Service Bus topic.
 
 # Define your connection string, topic name and SAS token
 $endpoint = "https://biztalkers.servicebus.windows.net/"

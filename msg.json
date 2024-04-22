@@ -1,0 +1,42 @@
+{
+    "eventid": "b125b354-dc0d-48f7-b17b-a66bcf76035e",
+    "eventtype": "CommsEnrichmentCommand",
+    "correlationid": "ca1e8f46-041b-43d7-aa34-9279e247cf22",
+    "datetimecreated": "2023-01-01T12:00:10",
+    "eventdata": {
+      "dataitems": [
+        {
+          "field": "accountid",
+          "value": "PFA100005190"
+        },
+        {
+          "field": "customereventid",
+          "value": "Cus0005"
+        },
+        {
+          "field": "override_type",
+          "value": "letter"
+        },	  
+         {
+          "field": "regeneration",
+          "value": "false"
+        },
+        {
+          "field": "communication",
+          "value": "nb_welcome_pack"
+        }
+      ]
+    },
+    "eventmetadata": {
+      "dataitems": [
+        {
+          "field": "sourcesystem",
+          "value": "Workflow"
+        },
+        {
+          "field": "fieldlist",
+          "value": "accountid|customereventid|communication"
+        }
+      ]
+    }
+  }
